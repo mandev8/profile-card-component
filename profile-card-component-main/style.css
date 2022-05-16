@@ -1,0 +1,77 @@
+:root {
+    font-size: 11px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    color: hsl(0, 11%, 12%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(185, 26%, 44%)
+    
+}
+
+.card-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.main {
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+.header {
+    background-image: url(./images/bg-pattern-card.svg);
+background-size: cover;
+    height: 150px;
+}
+img {
+    border-radius: 50%;
+    margin: -50px auto 20px auto;
+    width: 85px;
+    height: 85px;
+    border: 5px solid white;
+}
+
+.body {
+    margin-bottom: 20px;
+
+}
+
+.footer {
+    margin: 20px auto 20px auto;
+    border-top: 3px solid rgb(238, 233, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+ h2 {
+    margin-bottom: 5px;
+    letter-spacing: 1px;  
+ }
+
+.single-footer p {
+    letter-spacing: 3px;
+
+}
+.age, .city {
+    display: inline;
+    font-weight: normal;
+    font-size: medium;
+}
+.city {
+    letter-spacing: 2px;
+}
